@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import moment from 'moment';
 import {SingleDatePicker} from 'react-dates';
-import 'react-dates/lib/css/_datepicker.css';
+
 import 'react-dates/initialize';
 
 
@@ -11,7 +11,7 @@ console.log(now);
 class ExpenseForm extends Component{
     constructor(props){
         super(props);
-console.log(props)
+// console.log(props)
         this.state={ 
         description:props.expense?props.expense.description:'',
         note:props.expense?props.expense.note:'',

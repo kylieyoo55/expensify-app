@@ -7,6 +7,7 @@ import Header from '../components/Header';
 import Help from '../screens/HelpPage';
 import NotFountPage from '../screens/NotFoundPage';
 import Dashboard from '../screens/Dashboard';
+import 'react-dates/lib/css/_datepicker.css';
 
 
  const App=()=> 
